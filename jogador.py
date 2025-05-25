@@ -1,0 +1,1 @@
+## Funcoes para o jogador
