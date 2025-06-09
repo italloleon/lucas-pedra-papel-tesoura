@@ -1,12 +1,14 @@
 import utils
-lista = ["Tesoura","Papel","Tesoura"]
+lista = ["Pedra","Papel","Tesoura"]
 
-nome = (input("Insira seu nome: "))
+nome = input("Insira seu nome: ")
 
 
 print(utils.bemVindo(nome))
 
-opcao_jogador = (input("Oque você vai escolher?: "))
+print(utils.escolha_por_numero(nome))
+
+opcao_jogador = input("Oque você vai escolher? 1, 2 ou 3: ")
 
 print(utils.sua_escolha(opcao_jogador))
 
